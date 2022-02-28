@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  color: white;
+  font-family: "Eczar";
+  background-color: black;
+}
+#MartinezCutz {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.selected {
+  border-radius: 5px;
+  box-shadow: -5px 2px 10px 0px #bc9355;
+}
+.unselected {
+  box-shadow: none;
+}
+/* Sections and Containers */
+#invisible {
+  display: none;
+}
+/* Buttons */
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.success {
+  background: green;
+}
+.error {
+  background: red;
+}
